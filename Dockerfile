@@ -15,5 +15,5 @@ RUN apt-get install -y sysstat
 RUN apt-get install -y build-essential
 RUN echo "source /root/bash_extra" >> /root/.bashrc
 ADD bash_extra /root/bash_extra
-CMD ["/bin/bash"]
+CMD ["/bin/bash/"]
 
